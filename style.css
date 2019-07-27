@@ -1,0 +1,115 @@
+/* main article font */
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300&display=swap');
+/* delicious text */
+@import url(https://fonts.googleapis.com/css?family=Yellowtail&display=swap’);
+/* pizza font */
+@import url('https://fonts.googleapis.com/css?family=Oswald:600&display=swap');
+/* posted font */
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+/* recipe font */
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+body {
+    max-width: 920px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Yellowtail', sans-serif;
+}
+
+main {
+    font-family: 'Frank Ruhl Libre';
+    text-align: center;
+    width: 910px;
+    color: #686767;
+}
+
+header img {
+    float: left;
+}
+
+header {
+    display: inline-block;
+}
+
+#choco {
+    font-family: Oswald, sans-serif;
+    text-align: left;
+    color: black;
+}
+
+section p {
+    text-align: left;
+}
+
+section a {
+    float: right;
+}
+
+.posted {
+    font-family: Abel, sans-serif;
+}
+
+.swirl{
+    font-family: 'Patrick Hand', sans-serif;
+    background-image: url('img/list-bg.png');
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: auto 480 480 auto;
+    grid-template-rows: 200px;
+    grid-template-areas: ". rec1 rec2 ."
+
+}
+
+.left {
+    grid-area: rec1;
+}
+
+.right {
+    grid-area: rec2;
+}
+
+label {
+    display: block;
+}
+
+input {
+    position: relative;
+    vertical-align: bottom;
+}
+
+#van {
+    float: left;
+    margin-right: 20px;
+}
+
+#van-name {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+#van-text {
+    margin-top: 0;
+}
+
+button{
+    background: #bc7058;
+    color: white;
+    float: right;
+    height: 70px;
+    width: 200px;
+}
+
+#styled-hr {
+    margin-top: 90px;
+    background: url('img/small-logo.png') no-repeat top center;
+    display: block;
+    height: 30px;
+}
+
+footer {
+    font-family: 'Frank Ruhl Libre';
+    text-align: center;
+    width: 910px;
+    color: #686767;
+}
